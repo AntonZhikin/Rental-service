@@ -1,7 +1,7 @@
 import { DataTypes, Model } from "sequelize";
-import sequelize from "../db.js";
-import Offer from "./offer.js";
-import User from "./user.js";
+import sequelize from "../config/database.js";
+import { Offer } from "./offer.js";
+import { User } from "./user.js";
 
 class Review extends Model {}
 
